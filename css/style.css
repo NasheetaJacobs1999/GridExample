@@ -6,9 +6,14 @@
     box-sizing: 0;
 }
 
+h2 {
+    text-align: center;
+}
+
 .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
     gap: 20px;
 }
 
@@ -18,7 +23,21 @@
     text-align: center;
 }
 
-.box1 img{
-    max-width: ;
-    height: ;
+.box1 {
+    background-color: lightblue;
+}
+.box2 {
+    background-color: rgb(60, 195, 229);
+}
+.box3 {
+    background-color: lightblue;
+}
+.box4 {
+    background-color: lightblue;
+}
+.box5 {
+    background-color: rgb(60, 195,229);
+}
+.box6 {
+    background-color: lightblue;
 }
